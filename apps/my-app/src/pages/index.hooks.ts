@@ -1,4 +1,4 @@
-import { concatText } from '@kkkaoru/pusher-com-utils';
+import { concatText } from '@kkkaoru/template-utils';
 import { useMemo } from 'react';
 
 export function useHome() {
