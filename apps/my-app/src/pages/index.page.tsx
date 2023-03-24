@@ -1,4 +1,4 @@
-import { ExampleText } from '@kkkaoru/pusher-com-components';
+import { ExampleText } from '@kkkaoru/template-components';
 import { CustomButton } from '../features';
 import styles from '../styles/Home.module.css';
 import { useHome } from './index.hooks';
