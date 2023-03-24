@@ -1,5 +1,5 @@
 {
-  "name": "pusher-com-app",
+  "name": "my-app",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,11 +10,10 @@
     "eslint": "eslint --max-warnings=0 --fix --ext .ts,.tsx -c ../../.eslintrc.js src"
   },
   "dependencies": {
-    "@kkkaoru/pusher-com-components": "workspace:*",
-    "@kkkaoru/pusher-com-utils": "workspace:*",
+    "@kkkaoru/template-components": "workspace:*",
+    "@kkkaoru/template-utils": "workspace:*",
     "@next/font": "13.2.4",
     "next": "13.2.4",
-    "pusher-js": "8.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },

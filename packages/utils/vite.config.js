@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'PusherComUtils',
-      fileName: 'pusher-com-utils',
+      name: 'TemplateUtils',
+      fileName: 'template-utils',
     },
     rollupOptions,
   },

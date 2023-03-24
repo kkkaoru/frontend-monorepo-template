@@ -1,4 +1,4 @@
-name: Release
+name: Publish
 
 on:
   push:
@@ -17,8 +17,8 @@ env:
   TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
   TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
 jobs:
-  release:
-    name: Release
+  publish:
+    name: Publish
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -30,19 +30,19 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 7.26.3
+          version: 7
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18.14.2
+          node-version: 18
           cache: 'pnpm'
       - name: Install
         run: pnpm install --frozen-lockfile
-      - name: Create Release Pull Request or Publish to npm
+      - name: Create publish pull request or publish to npm
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: pnpm run release
+          publish: pnpm run publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -1,5 +1,5 @@
 {
-  "name": "@kkkaoru/pusher-com-components",
+  "name": "@kkkaoru/template-components",
   "version": "0.0.0",
   "description": "",
   "keywords": [],
@@ -8,13 +8,13 @@
     "src"
   ],
   "private": true,
-  "main": "./dist/pusher-com-components.umd.js",
-  "module": "./dist/pusher-com-components.mjs",
+  "main": "./dist/template-components.umd.js",
+  "module": "./dist/template-components.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/pusher-com-components.mjs",
-      "require": "./pusher-com-components.umd.js"
+      "import": "./dist/template-components.mjs",
+      "require": "./template-components.umd.js"
     }
   },
   "scripts": {
