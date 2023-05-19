@@ -20,7 +20,7 @@ importers:
       is-ci: 3.0.1
       react: 18.2.0
       typescript: 5.0.4
-      typesync: 0.11.0
+      typesync: 0.11.1
       vite: 4.3.8
       vitest: 0.29.7
     devDependencies:
@@ -40,7 +40,7 @@ importers:
       is-ci: 3.0.1
       react: 18.2.0
       typescript: 5.0.4
-      typesync: 0.11.0
+      typesync: 0.11.1
       vite: 4.3.8_@types+node@18.16.13
       vitest: 0.29.7
 
@@ -1109,7 +1109,7 @@ packages:
     resolution: {integrity: sha512-7kZUAaLscfgbwBQRbvdMYaZOWyMEcPTH/tJjnyAWJ/dvvs9Ef+CERx/qJb9GExJpl1qipaDGn7KqHnFGGixd0w==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      semver: 7.5.0
+      semver: 7.5.1
     dev: true
 
   /@pkgjs/parseargs/0.11.0:
@@ -1436,7 +1436,7 @@ packages:
       grapheme-splitter: 1.0.4
       ignore: 5.2.4
       natural-compare-lite: 1.4.0
-      semver: 7.5.0
+      semver: 7.5.1
       tsutils: 3.21.0_typescript@5.0.4
       typescript: 5.0.4
     transitivePeerDependencies:
@@ -1510,7 +1510,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.5.0
+      semver: 7.5.1
       tsutils: 3.21.0_typescript@5.0.4
       typescript: 5.0.4
     transitivePeerDependencies:
@@ -1531,7 +1531,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.56.0_typescript@5.0.4
       eslint: 8.35.0
       eslint-scope: 5.1.1
-      semver: 7.5.0
+      semver: 7.5.1
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -1905,7 +1905,7 @@ packages:
   /builtins/5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.5.0
+      semver: 7.5.1
     dev: true
 
   /busboy/1.6.0:
@@ -2953,7 +2953,7 @@ packages:
       regexp-tree: 0.1.24
       regjsparser: 0.9.1
       safe-regex: 2.1.1
-      semver: 7.5.0
+      semver: 7.5.1
       strip-indent: 3.0.0
     dev: true
 
@@ -4798,7 +4798,7 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.11.0
-      semver: 7.5.0
+      semver: 7.5.1
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -4813,7 +4813,7 @@ packages:
     dependencies:
       hosted-git-info: 6.1.1
       proc-log: 3.0.0
-      semver: 7.5.0
+      semver: 7.5.1
       validate-npm-package-name: 5.0.0
     dev: true
 
@@ -5519,8 +5519,8 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
-  /semver/7.5.0:
-    resolution: {integrity: sha512-+XC0AD/R7Q2mPSRuy2Id0+CGTZ98+8f+KvwirxOKIEyid+XSx6HbC63p+O4IndTHuX5Z+JxQ0TghCkO5Cg/2HA==}
+  /semver/7.5.1:
+    resolution: {integrity: sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -6190,8 +6190,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typesync/0.11.0:
-    resolution: {integrity: sha512-hs/gnQ1XLm6NxXhYT/iRwjSPSUX8nVkXY+OcrD9Tkoyru7B8Pa22261ErYA8BLgRqxVtVjbA2xNf1ApuRdZUGQ==}
+  /typesync/0.11.1:
+    resolution: {integrity: sha512-sMoD2oBqrmUZPX1jAmRd75N07qPG8gTSocfJSfe09otfuoVx4rFNcOreOriUW+hp6Fh01dBuh42yD2NCgZD2dA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -6202,7 +6202,7 @@ packages:
       glob: 8.1.0
       npm-registry-fetch: 14.0.5
       ora: 5.4.1
-      semver: 7.5.0
+      semver: 7.5.1
     transitivePeerDependencies:
       - bluebird
       - supports-color
