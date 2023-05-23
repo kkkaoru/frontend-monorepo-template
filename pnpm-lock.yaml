@@ -11,7 +11,7 @@ importers:
       '@kkkaoru/tsconfig': latest
       '@kkkaoru/vite-config': latest
       '@kkkaoru/vitest-config': latest
-      '@types/eslint': 8.37.0
+      '@types/eslint': 8.40.0
       '@types/is-ci': 3.0.0
       '@types/node': 18.16.14
       '@types/react': 18.2.6
@@ -31,7 +31,7 @@ importers:
       '@kkkaoru/tsconfig': 1.0.6
       '@kkkaoru/vite-config': 1.0.3_@types+node@18.16.14
       '@kkkaoru/vitest-config': 1.0.1_vite@4.3.8
-      '@types/eslint': 8.37.0
+      '@types/eslint': 8.40.0
       '@types/is-ci': 3.0.0
       '@types/node': 18.16.14
       '@types/react': 18.2.6
@@ -1340,8 +1340,8 @@ packages:
     resolution: {integrity: sha512-KnRanxnpfpjUTqTCXslZSEdLfXExwgNxYPdiO2WGUj8+HDjFi8R3k5RVKPeSCzLjCcshCAtVO2QBbVuAV4kTnw==}
     dev: true
 
-  /@types/eslint/8.37.0:
-    resolution: {integrity: sha512-Piet7dG2JBuDIfohBngQ3rCt7MgO9xCO4xIMKxBThCq5PNRB91IjlJ10eJVwfoNtvTErmxLzwBZ7rHZtbOMmFQ==}
+  /@types/eslint/8.40.0:
+    resolution: {integrity: sha512-nbq2mvc/tBrK9zQQuItvjJl++GTN5j06DaPtp3hZCpngmG6Q3xoyEmd0TwZI0gAy/G1X0zhGBbr2imsGFdFV0g==}
     dependencies:
       '@types/estree': 1.0.0
       '@types/json-schema': 7.0.11
