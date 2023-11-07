@@ -33,8 +33,8 @@ importers:
         specifier: 8.44.3
         version: 8.44.3
       '@types/is-ci':
-        specifier: 3.0.0
-        version: 3.0.0
+        specifier: 3.0.4
+        version: 3.0.4
       '@types/node':
         specifier: 20.6.4
         version: 20.6.4
@@ -224,7 +224,7 @@ packages:
       '@changesets/types': 5.2.1
       '@changesets/write': 0.2.3
       '@manypkg/get-packages': 1.1.3
-      '@types/is-ci': 3.0.0
+      '@types/is-ci': 3.0.4
       '@types/semver': 6.2.3
       ansi-colors: 4.1.3
       chalk: 2.4.2
@@ -1596,8 +1596,8 @@ packages:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: true
 
-  /@types/is-ci@3.0.0:
-    resolution: {integrity: sha512-Q0Op0hdWbYd1iahB+IFNQcWXFq4O0Q5MwQP7uN0souuQ4rPg1vEYcnIOfr1gY+M+6rc8FGoRaBO1mOOvL29sEQ==}
+  /@types/is-ci@3.0.4:
+    resolution: {integrity: sha512-AkCYCmwlXeuH89DagDCzvCAyltI2v9lh3U3DqSg/GrBYoReAaWwxfXCqMx9UV5MajLZ4ZFwZzV4cABGIxk2XRw==}
     dependencies:
       ci-info: 3.7.1
     dev: true
@@ -1850,6 +1850,7 @@ packages:
 
   /@vitest/coverage-c8@0.29.7(vitest@0.29.7):
     resolution: {integrity: sha512-TSubtP9JFBuI/wuApxwknHe40VDkX8hFbBak0OXj4/jCeXrEu5B5GPWcxzyk9YvzXgCaDvoiZV79I7AvhNI9YQ==}
+    deprecated: v8 coverage is moved to @vitest/coverage-v8 package
     peerDependencies:
       vitest: '>=0.29.0 <1'
     dependencies:
