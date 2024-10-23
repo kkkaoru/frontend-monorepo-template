@@ -22,7 +22,7 @@
     "postinstall": "is-ci || typesync"
   },
   "engines": {
-    "node": "20.4.0"
+    "node": "20.18.0"
   },
   "repository": {
     "type": "git",
@@ -46,7 +46,7 @@
     "@kkkaoru/vitest-config": "latest",
     "@types/eslint": "8.44.3",
     "@types/is-ci": "3.0.0",
-    "@types/node": "20.6.4",
+    "@types/node": "20.17.0",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
     "eslint": "8.50.0",
